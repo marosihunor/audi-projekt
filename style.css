@@ -1,3 +1,12 @@
+        body {
+            font-family: "Ancizar Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+        
+        
+        
+        
         .audi-hero {
             background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://www.audi.com/content/dam/gbp2/experience-audi/models-and-technology/production-models/r8/r8-coupe/1920x1080/1920x1080-r8-coupe-1.jpg') no-repeat center center;
             background-size: cover;
@@ -84,3 +93,14 @@
             box-shadow: none;
             border-bottom-color: #cc0000;
         }
+
+        #header {
+            background-image: url(img/audi-r8-gt-3840x2160.jpg);
+        }
+ 
+
+        .card-img-uniform {
+         height: 250px;        
+         width: 100%;          
+          object-fit: cover;   
+  }
