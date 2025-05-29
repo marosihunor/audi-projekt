@@ -3,9 +3,463 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Audi - Vorsprung durch Technik</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-audi-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://www.audi.com/etc/designs/audi/favicon.png" alt="Audi Logo" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#models">Models</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#technology">Technology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="audi-hero d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="display-3 fw-bold mb-4">Vorsprung <span class="audi-red">durch</span> Technik</h1>
+                    <p class="lead mb-4">Experience the future of mobility with Audi's cutting-edge technology and premium craftsmanship.</p>
+                    <a href="#models" class="btn btn-outline-light btn-lg me-2">Explore Models</a>
+                    <a href="#contact" class="btn btn-danger btn-lg">Book a Test Drive</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="models" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Our <span class="audi-red">Model</span> Range</h2>
+                <p class="text-muted">Discover the perfect Audi for your lifestyle</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="model-card card h-100">
+                        <img src="https://www.audi.com/content/dam/gbp2/experience-audi/models-and-technology/production-models/a3/a3-sportback/1920x1080/1920x1080-a3-sportback-1.jpg" class="card-img-top" alt="Audi A3">
+                        <div class="card-body">
+                            <h5 class="card-title">Audi A3</h5>
+                            <p class="card-text">Compact luxury with dynamic performance and cutting-edge technology.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold">From $34,900</span>
+                                <button class="btn btn-sm btn-outline-danger">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="model-card card h-100">
+                        <img src="https://www.audi.com/content/dam/gbp2/experience-audi/models-and-technology/production-models/a6/a6-sedan/1920x1080/1920x1080-a6-sedan-1.jpg" class="card-img-top" alt="Audi A6">
+                        <div class="card-body">
+                            <h5 class="card-title">Audi A6</h5>
+                            <p class="card-text">Business class sophistication meets progressive design and innovation.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold">From $54,900</span>
+                                <button class="btn btn-sm btn-outline-danger">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="model-card card h-100">
+                        <img src="https://www.audi.com/content/dam/gbp2/experience-audi/models-and-technology/production-models/q5/q5/1920x1080/1920x1080-q5-1.jpg" class="card-img-top" alt="Audi Q5">
+                        <div class="card-body">
+                            <h5 class="card-title">Audi Q5</h5>
+                            <p class="card-text">The versatile SUV that combines everyday practicality with premium comfort.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold">From $43,300</span>
+                                <button class="btn btn-sm btn-outline-danger">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="model-card card h-100">
+                        <img src="https://www.audi.com/content/dam/gbp2/experience-audi/models-and-technology/production-models/e-tron-gt/e-tron-gt/1920x1080/1920x1080-e-tron-gt-1.jpg" class="card-img-top" alt="Audi e-tron GT">
+                        <div class="card-body">
+                            <h5 class="card-title">Audi e-tron GT</h5>
+                            <p class="card-text">The future is electric. Experience breathtaking performance with zero emissions.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold">From $99,900</span>
+                                <button class="btn btn-sm btn-outline-danger">Explore</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-danger">View All Models</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="technology" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Innovative <span class="audi-red">Technology</span></h2>
+                <p class="text-muted">Pushing the boundaries of automotive engineering</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h4>e-tron Electric Drive</h4>
+                    <p>Our advanced electric powertrain delivers exhilarating performance with zero local emissions.</p>
+                </div>
+                
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h4>Autonomous Driving</h4>
+                    <p>Experience the future with our AI-powered driver assistance systems and autonomous capabilities.</p>
+                </div>
+                
+                <div class="col-md-4 text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h4>Digital Matrix LED</h4>
+                    <p>Our intelligent lighting system adapts to road conditions and enhances visibility and safety.</p>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <img src="https://www.audi.com/content/dam/gbp2/experience-audi/audi-technology/digital-matrix-led/1920x1080/1920x1080-digital-matrix-led-1.jpg" alt="Audi Technology" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div>
+                        <h3 class="fw-bold mb-4">The <span class="audi-red">Audi</span> Virtual Cockpit</h3>
+                        <p class="lead">A fully digital instrument cluster that puts all essential information directly in your line of sight.</p>
+                        <p>With customizable displays and high-resolution graphics, the Audi Virtual Cockpit transforms how you interact with your vehicle. Navigation, media, and vehicle information are presented in crisp detail, reducing distractions and enhancing your driving experience.</p>
+                        <a href="#" class="btn btn-outline-danger">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-5 bg-audi-dark text-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">The <span class="audi-red">Audi</span> Experience</h2>
+                <p class="text-muted">More than just a car - it's a lifestyle</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white h-100">
+                        <img src="https://www.audi.com/content/dam/gbp2/experience-audi/audi-sport/1920x1080/1920x1080-audi-sport-1.jpg" class="card-img-top" alt="Audi Sport">
+                        <div class="card-body">
+                            <h5 class="card-title">Audi Sport</h5>
+                            <p class="card-text">Experience the thrill of high-performance driving with our RS and R models, engineered for the track and the road.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white h-100">
+                        <img src="https://www.audi.com/content/dam/gbp2/experience-audi/audi-connect/1920x1080/1920x1080-audi-connect-1.jpg" class="card-img-top" alt="Audi Connect">
+                        <div class="card-body">
+                            <h5 class="card-title">Audi Connect</h5>
+                            <p class="card-text">Stay connected with seamless integration of your digital life into your Audi experience.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card bg-dark text-white h-100">
+                        <img src="https://www.audi.com/content/dam/gbp2/experience-audi/audi-exclusive/1920x1080/1920x1080-audi-exclusive-1.jpg" class="card-img-top" alt="Audi Exclusive">
+                        <div class="card-body">
+                            <h5 class="card-title">Audi Exclusive</h5>
+                            <p class="card-text">Create a truly unique Audi with our bespoke customization program, tailored to your individual style.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-lg-6 order-lg-2">
+                    <img src="https://www.audi.com/content/dam/gbp2/experience-audi/audi-driving-experience/1920x1080/1920x1080-audi-driving-experience-1.jpg" alt="Audi Driving Experience" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6 order-lg-1 d-flex align-items-center">
+                    <div>
+                        <h3 class="fw-bold mb-4">Audi <span class="audi-red">Driving</span> Experience</h3>
+                        <p class="lead">Master your Audi with professional driving courses designed to enhance your skills.</p>
+                        <p>From advanced road driving to high-performance track training, our certified instructors will help you unlock the full potential of your Audi. Learn vehicle dynamics, defensive driving techniques, and how to handle challenging road conditions with confidence.</p>
+                        <a href="#" class="btn btn-outline-light">Book Your Experience</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">What Our <span class="audi-red">Clients</span> Say</h2>
+                <p class="text-muted">Hear from Audi owners around the world</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card card h-100 p-4">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="fas fa-star audi-red"></i>
+                                <i class="fas fa-star audi-red"></i>
+                                <i class="fas fa-star audi-red"></i>
+                                <i class="fas fa-star audi-red"></i>
+                                <i class="fas fa-star audi-red"></i>
+                            </div>
+                            <p class="card-text">"My Audi A6 has completely transformed my daily commute. The comfort, technology, and performance are unmatched in its class."</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Client" class="rounded-circle me-3" width="50">
+                                <div>
+                                    <h6 class="mb-0">Sarah Johnson</h6>
+                                    <small class="text-muted">Audi A6 Owner</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="testimonial-card card h-100 p-4">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="fas fa-star audi-red"></i>
+                                <i class="fas fa-star audi-red"></i>
+                                <i class="fas fa-star audi-red"></i>
+                                <i class="fas fa-star audi-red"></i>
+                                <i class="fas fa-star audi-red"></i>
+                            </div>
+                            <p class="card-text">"The switch to electric with the e-tron GT was seamless. The acceleration is mind-blowing, and I love the sustainable aspect."</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client" class="rounded-circle me-3" width="50">
+                                <div>
+                                    <h6 class="mb-0">Michael Chen</h6>
+                                    <small class="text-muted">Audi e-tron GT Owner</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="testimonial-card card h-100 p-4">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <i class="fas fa-star audi-red"></i>
+                                <i class="fas fa-star audi-red"></i>
+                                <i class="fas fa-star audi-red"></i>
+                                <i class="fas fa-star audi-red"></i>
+                                <i class="fas fa-star-half-alt audi-red"></i>
+                            </div>
+                            <p class="card-text">"Audi's customer service is as premium as their vehicles. Every interaction has been exceptional and personalized."</p>
+                            <div class="d-flex align-items-center mt-3">
+                                <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Client" class="rounded-circle me-3" width="50">
+                                <div>
+                                    <h6 class="mb-0">Emily Rodriguez</h6>
+                                    <small class="text-muted">Audi Q7 Owner</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="https://www.audi.com/content/dam/gbp2/company/history/audi-history-rings/1920x1080/1920x1080-audi-history-rings-1.jpg" alt="Audi History" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">About <span class="audi-red">Audi</span></h2>
+                    <p class="lead">More than a century of innovation and progress</p>
+                    <p>Founded in 1909, Audi has established itself as a premium manufacturer of automobiles that combine sporty performance, groundbreaking technology, and timeless design. The company's slogan "Vorsprung durch Technik" (Progress through Technology) reflects its commitment to innovation.</p>
+                    <p>Today, Audi is at the forefront of the automotive industry's transformation, leading the charge in electric mobility, autonomous driving, and digital services while maintaining its reputation for exceptional craftsmanship and attention to detail.</p>
+                    <a href="#" class="btn btn-outline-danger">Our History</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-audi-dark text-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Contact <span class="audi-red">Us</span></h2>
+                <p class="text-muted">Connect with Audi for inquiries, test drives, and more</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control bg-dark text-white border-dark" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control bg-dark text-white border-dark" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-select bg-dark text-white border-dark">
+                                <option selected>Select Model of Interest</option>
+                                <option>A3</option>
+                                <option>A4</option>
+                                <option>A6</option>
+                                <option>Q5</option>
+                                <option>Q7</option>
+                                <option>e-tron</option>
+                                <option>e-tron GT</option>
+                                <option>RS Models</option>
+                                <option>R8</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control bg-dark text-white border-dark" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </form>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="card bg-dark text-white h-100">
+                        <div class="card-body">
+                            <h4 class="card-title mb-4">Find a <span class="audi-red">Dealer</span></h4>
+                            <div class="mb-4">
+                                <h5><i class="fas fa-map-marker-alt me-2 audi-red"></i> Audi Headquarters</h5>
+                                <p class="ms-4">Audi AG<br>Auto-Union-Straße 1<br>85045 Ingolstadt, Germany</p>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <h5><i class="fas fa-phone me-2 audi-red"></i> Contact Numbers</h5>
+                                <p class="ms-4">
+                                    Sales: +1 (800) 822-2834<br>
+                                    Service: +1 (800) 253-2834<br>
+                                    Roadside Assistance: +1 (800) 411-9988
+                                </p>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <h5><i class="fas fa-clock me-2 audi-red"></i> Business Hours</h5>
+                                <p class="ms-4">
+                                    Monday - Friday: 8:00 AM - 6:00 PM<br>
+                                    Saturday: 9:00 AM - 5:00 PM<br>
+                                    Sunday: Closed
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5 bg-audi-dark text-white">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3">
+                    <img src="https://www.audi.com/etc/designs/audi/favicon.png" alt="Audi Logo" height="30" class="mb-3">
+                    <p>Vorsprung durch Technik - Progress through Technology</p>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3">
+                    <h5 class="mb-4">Models</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="footer-link">Sedans</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">SUVs</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Sportbacks</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">e-tron Electric</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Audi Sport</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3">
+                    <h5 class="mb-4">Services</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="footer-link">Audi Financial Services</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Audi Service</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Audi Accessories</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">myAudi App</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Roadside Assistance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3">
+                    <h5 class="mb-4">Company</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="footer-link">About Audi</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Careers</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Sustainability</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Press</a></li>
+                        <li class="mb-2"><a href="#" class="footer-link">Investor Relations</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="my-5 bg-secondary">
+            
+            <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <p class="small text-muted">&copy; 2023 Audi AG. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="footer-link small me-3">Privacy Policy</a>
+                    <a href="#" class="footer-link small me-3">Terms of Service</a>
+                    <a href="#" class="footer-link small">Cookie Settings</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+
 </body>
 </html>

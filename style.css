@@ -1,0 +1,86 @@
+        .audi-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://www.audi.com/content/dam/gbp2/experience-audi/models-and-technology/production-models/r8/r8-coupe/1920x1080/1920x1080-r8-coupe-1.jpg') no-repeat center center;
+            background-size: cover;
+            height: 90vh;
+            color: white;
+        }
+        
+        .model-card {
+            transition: transform 0.3s;
+            border: none;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        
+        .model-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .model-card img {
+            transition: transform 0.5s;
+        }
+        
+        .model-card:hover img {
+            transform: scale(1.05);
+        }
+        
+        .audi-red {
+            color: #cc0000;
+        }
+        
+        .bg-audi-dark {
+            background-color: #111;
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #cc0000;
+            transition: width 0.3s;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: #cc0000;
+            margin-bottom: 1rem;
+        }
+        
+        .testimonial-card {
+            border-left: 4px solid #cc0000;
+        }
+        
+        .footer-link {
+            color: #aaa;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-link:hover {
+            color: white;
+        }
+        
+        .newsletter-input {
+            border: none;
+            border-bottom: 2px solid #555;
+            background: transparent;
+            color: white;
+            border-radius: 0;
+        }
+        
+        .newsletter-input:focus {
+            box-shadow: none;
+            border-bottom-color: #cc0000;
+        }
