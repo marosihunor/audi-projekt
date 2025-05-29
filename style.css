@@ -104,3 +104,9 @@
          width: 100%;          
           object-fit: cover;   
   }
+
+  .model-card .card-img-top {
+    height: 200px;       
+    width: 100%;
+    object-fit: cover;   
+  }
